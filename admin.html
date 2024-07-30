@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis</title>
+    <link rel="stylesheet" href="style-services.css">
+    <script src="https://kit.fontawesome.com/e019046ace.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#header"><img src="pic/Katie.png" class="logo"></a>
+      </nav>
+    </header>
+    <div id="service">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="sub-title">Data Analysis</h1>
+            <p class="subtext1">I can offer a wide range of services to help businesses and individuals optimize their 
+              social media presence.<br>
+              <br>Services include:
+              <br>
+              <br>
+              <ul>
+                <li><em>Data Collection and Management: </em>Integrating data from various sources such as social media, web analytics, CRM systems, setting up 
+                  and managing databases to store and organize large datasets.</li><br>
+                <li><em>Data Analysis: </em>Analyzing social media and online content to gauge public sentiment towards a brand or product.</li><br>
+                <li><em>Strategy and Optimization: </em>Using data insights to develop and optimize digital marketing strategies and analyzing search 
+                  engine performance and optimizing content for better search rankings.</li><br>
+                <li><em>Reporting: </em>Presenting data in an easy-to-understand format using charts, graphs, and other visualization tools.</li><br>
+              </ul>
+            </p>
+          </div>
+          <div class="about-col-1">
+            <img src="pic/admin.png">
+            <a href="index.html#services" class="back">Take Me Back</a>
+          </div>
+        </div>
+      </div>
+        <!-----------------contact-------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title2">Contact Me</h1>
+            <div class="social-icons">
+              <a href=mailto:"njericatherine03@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+              <a href="https://www.instagram.com/katiedigitalhub/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/KatieMurigi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/CatherineMurigi" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/13En6h8kMgEm7CthqZ4olV2MCAYtuyy5kTXxJMQW7Wes/edit?usp=sharing" download target="_blank" class="btn btn2">See My Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 By Catherine Murigi</p>
+      </div>
+    </div>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+  </body>
+</html>
