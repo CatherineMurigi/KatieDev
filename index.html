@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catherine Murigi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e019046ace.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!----------header-------------->
+    <header>
+      <nav class="navbar">
+        <a href="#header"><img src="pics/Katie.png" class="logo"></a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </header>
+    <!------------home------------->
+    <div id="header">
+      <div class="header-img">
+        <img src="pics/Cathie’s.png">
+      </div>
+        <div class="container">
+            <div class="header-text">
+              <h1>Catherine <span>Murigi</span></h1>
+              <h3>A <span class="multiple-text"></span></h3>
+              <p class="description">I design and build beautiful websites for businesses around the globe. 
+                If you need a modern and powerful website, simply send me an email. Feel free to check out my portfolio.</p>
+              <div class="reach">
+                <a href=mailto:"njericatherine03@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+                <a href="https://github.com/CatherineMurigi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="reach-links">
+                <a href="mailto: njericatherine03@gmail.com" target="_blank"><button class="action">Email Me</button></a>
+                <a href="#portfolio"><button class="action">Portfolio</button></a>
+                <a href="#portfolio"><button class="action">Project Request</button></a>
+              </div>
+            </div>
+        </div>
+      
+    </div>
+    <!-----------about-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="subtext1">Hello, I’m Catherine.<br>
+              <br>A dedicated individual with a passion for growing brands online.  With 6 years of experience in entrepreneurship 
+              and digital marketing, I bring a wealth of knowledge and creativity to every project I undertake.
+              <br> 
+              <br>I started my profession as a <strong>Business Consultant</strong>, where I worked with business owners to improve the 
+              overall operations of their enterprices. Since then, I’ve had the privilege of working with entrepreneurs, refining my 
+              expertise in <em>online businesses, e-commerce enterprises and web development</em>.<br><br>
+              I thrive on challenges and constantly set goals for myself, striving for excellence in everything I do. My approach is 
+              driven by my desire to solve problems using technology, which ensures that I deliver innovative and effective solutions tailored 
+              to meet my clients' needs.<br><br>
+              So, whether I am providing your business with general administrative services or even specialty services such as <em>Wordpress 
+                website design or course creation</em>, I am always thinking about customer’s experience! <br></p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br>Designing & Developing Websites</li>
+                  <li><span>Social Media Management</span><br>Social media scheduling & management.</li>
+                  <li><span>Email Marketing</span><br>Creating Email campaigns, Email newsletters, and naturing leads through written communication.</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024 - Current</span><br>Web Designer, freelance</li>
+                  <li><span>2022 - 2023</span><br>Executive Assistant at Upwork</li>
+                  <li><span>2017 - 2022</span><br>Business Consultant at TechnoServe</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2023</span><br>Web Design and Development Self-Taught</li>
+                  <li><span>2022</span><br>Financial Modeling & Valuation Analysis, CFA</li>
+                  <li><span>2022</span><br>Virtual Assistant, ALX</li>
+                </ul>
+               </div>
+          </div>
+          <div class="about-col-1">
+            <img src="pics/bg1.png">
+          </div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-icons">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-shopify"></i>
+            <p>Shopify</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-file-word"></i>
+            <p>Content Creation</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-wordpress"></i>
+            <p>Wordpress</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-simple"></i>
+            <p>Data Analysis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------services--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design<br>& Development</h2>
+            <p>Creating seamless websites.</p>
+            <a href="web.html" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-hashtag"></i>
+            <h2>Social Media<br>Services</h2>
+            <p>Social Media Management & Scheduling.</p>
+            <a href="social.html" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-simple"></i>
+            <h2>Data<br>Analysis</h2>
+            <p>Offering web & social media analysis.</p>
+            <a href="admin.html" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------portfolio-------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="pics/Website.JPG">
+            <div class="layer">
+              <h3>Website Design</h3>
+              <p></p>
+              <a href="https://catherinemurigi.github.io/Katie-Digital-Hub/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pics/Email.JPG">
+            <div class="layer">
+              <h3>Email Signature</h3>
+              <p></p>
+              <a href="https://catherinemurigi.github.io/Email-Signature/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pics/work-3.jpg">
+            <div class="layer">
+              <h3>Email Newsletter</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <a href="pic/KDH-Portfolio.pdf" target="_blank" class="btn">See more</a>
+      </div>
+    </div>
+    <!-----------------contact-------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title2">Contact Me</h1>
+            <div class="social-icons">
+              <a href=mailto:"njericatherine03@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+              <a href="https://www.instagram.com/katiedigitalhub/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/KatieMurigi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/CatherineMurigi" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/13En6h8kMgEm7CthqZ4olV2MCAYtuyy5kTXxJMQW7Wes/edit?usp=sharing" download target="_blank" class="btn btn2">See My Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 By Catherine Murigi</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right ="0"
+      }
+      function closemenu(){
+        sidemenu.style.right ="-200px"
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby4bPW9T2TGVTeqFz72SV6hNOA09eHCAa-FuUXIusTTp-xlvl21VKMwTmmeWsrDxoWo9Q/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      const typed = new Typed('.multiple-text' ,{
+        strings: ['Digital Ecosystem Specialist','Front-End Developer', 'Web Designer'],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

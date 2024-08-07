@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="style-services.css">
+    <script src="https://kit.fontawesome.com/e019046ace.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!---------------header------------------->
+    <header>
+      <nav class="navbar">
+        <a href="index.html#header"><img src="Katie.png" class="logo"></a>
+      </nav>
+    </header>
+    <!-----------------about------------------->
+    <div id="service">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="sub-title">Web Design</h1>
+            <p class="subtext1">I design websites that are visually stunning, user-friendly, and are fully responsive 
+              that reflect your brand’s identity and engage your audience effectively.<br>
+              <br>Services include:
+              <br>
+              <br>
+              <ul>
+                <li><em>Responsive Design: </em>Creating websites that look and perform excellently on all devices,
+                   from desktops to smartphones.</li><br>
+                <li><em>Custom Landing-page design: </em>Whether you’re launching a new product, running a marketing campaign,
+                   or collecting leads, my expertly crafted landing pages will help you achieve your goals.</li><br>
+                <li><em>Web Optimization: </em>I help improve your website’s loading speed by optimizing images, leveraging browser caching,
+                   and implementing efficient coding practices. Faster loading times lead to better user experiences and higher conversion rates.</li><br>
+                <li><em>Website Maintenance: </em>Regular updates and backups, security monitoring, performance optimization and bug fixes.</li><br>
+              </ul>
+            </p>
+            <div class="reach-links">
+              <a href="index.html#portfolio"><button class="action" target="_blank">Portfolio</button></a>
+              <a href="#"><button class="action">Project Request</button></a>
+            </div>
+          </div>
+          <div class="about-col-1">
+            <img src="web.png">
+            <a href="index.html#services" class="back">Take Me Back</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+        <!-----------------contact-------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title2">Contact Me</h1>
+            <div class="social-icons">
+              <a href=mailto:"njericatherine03@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+              <a href="https://www.instagram.com/katiedigitalhub/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/KatieMurigi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/CatherineMurigi" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/13En6h8kMgEm7CthqZ4olV2MCAYtuyy5kTXxJMQW7Wes/edit?usp=sharing" download target="_blank" class="btn btn2">See My Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 By Catherine Murigi</p>
+      </div>
+    </div>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+  </body>
+</html>

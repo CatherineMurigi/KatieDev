@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Management</title>
+    <link rel="stylesheet" href="style-services.css">
+    <script src="https://kit.fontawesome.com/e019046ace.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!---------------header------------------->
+    <header>
+      <nav class="navbar">
+        <a href="index.html#header"><img src="Katie.png" class="logo"></a>
+      </nav>
+    </header>
+    <!-----------------about------------------->
+    <div id="service">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="sub-title">Social Media Portfolio</h1>
+            <p class="subtext1">I can offer a wide range of services to help businesses and individuals optimize their 
+              social media presence.<br>
+              <br>Services include:
+              <br>
+              <br>
+              <ul>
+                <li><em>Content Creation: </em>Creating visually appealing images, infographics, and other visual content, producing engaging 
+                  videos for social media platforms and crafting compelling captions, posts, and social media copy.</li><br>
+                <li><em>Account Management: </em>Setting up and optimizing social media profiles for maximum visibility and engagement, managing the posting 
+                  schedule to ensure consistent and timely content delivery, and engaging with followers, responding to comments, and managing direct messages.</li><br>
+                <li><em>Strategy Development: </em>Developing a comprehensive social media strategy tailored to the client's goals, creating a content calendar 
+                  to plan and organize posts and researching and implementing effective hashtags to increase reach and engagement.</li><br>
+                <li><em>Analytics and Reporting: </em>Monitoring and analyzing social media metrics to track the performance of posts and campaigns and 
+                  providing detailed reports on social media performance and insights for improvement.</li><br>
+              </ul>
+            </p>
+            <div class="reach-links">
+              <a href="index.html#portfolio"><button class="action" target="_blank">Portfolio</button></a>
+              <a href="#"><button class="action">Project Request</button></a>
+            </div>
+          </div>
+          <div class="about-col-1">
+            <img src="social.png">
+            <a href="index.html#services" class="back">Take Me Back</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+        <!-----------------contact-------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title2">Contact Me</h1>
+            <div class="social-icons">
+              <a href=mailto:"njericatherine03@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+              <a href="https://www.instagram.com/katiedigitalhub/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/KatieMurigi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/CatherineMurigi" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/13En6h8kMgEm7CthqZ4olV2MCAYtuyy5kTXxJMQW7Wes/edit?usp=sharing" download target="_blank" class="btn btn2">See My Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 By Catherine Murigi</p>
+      </div>
+    </div>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+  </body>
+</html>
